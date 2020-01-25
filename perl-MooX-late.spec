@@ -4,7 +4,6 @@
 #
 %define		pdir	MooX
 %define		pnam	late
-%include	/usr/lib/rpm/macros.perl
 Summary:	MooX::late - easily translate Moose code to Moo
 Name:		perl-MooX-late
 Version:	0.015
