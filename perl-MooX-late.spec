@@ -6,14 +6,14 @@
 %define		pnam	late
 Summary:	MooX::late - easily translate Moose code to Moo
 Name:		perl-MooX-late
-Version:	0.015
+Version:	0.100
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/MooX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2807107636e4a40903f1e2caff5fe529
-URL:		http://search.cpan.org/dist/MooX-late/
+Source0:	https://www.cpan.org/modules/by-module/MooX/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	e5eb3f179119cf30107fd66be771bc45
+URL:		https://search.cpan.org/dist/MooX-late/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
